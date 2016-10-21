@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.jack.webchart.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <com.example.jack.webchart.ExerciseWebChart
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        app:circleColor="#BCBCBC"
+        app:friendColor="#32B7EB"
+        app:averageColor="#FBD700"
+        app:standardColor="#39E100"
+        app:frienDranking="1"
+        app:averageCount="2"
+        app:standardDay="3"
+        app:allStep="10692"
+        app:averageCountData="1527"
+        app:friendDrankData="31"
+        app:standarDayData="1"/>
+
+</RelativeLayout>

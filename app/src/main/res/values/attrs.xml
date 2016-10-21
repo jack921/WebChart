@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="frienDranking" format="integer"/>
+    <attr name="standardDay" format="integer"/>
+    <attr name="averageCount" format="integer"/>
+    <attr name="circleSize" format="integer"/>
+    <attr name="circleColor" format="color" />
+    <attr name="friendColor" format="color" />
+    <attr name="standardColor" format="color"/>
+    <attr name="averageColor" format="color"/>
+    <attr name="allStep" format="string"/>
+    <attr name="averageCountData" format="string"/>
+    <attr name="friendDrankData" format="string"/>
+    <attr name="standarDayData" format="string"/>
+
+    <declare-styleable name="ExerciseWebChart">
+        <attr name="frienDranking" />
+        <attr name="standardDay" />
+        <attr name="averageCount" />
+        <attr name="circleSize" />
+        <attr name="circleColor" />
+        <attr name="friendColor" />
+        <attr name="standardColor" />
+        <attr name="averageColor" />
+        <attr name="allStep" />
+        <attr name="averageCountData" />
+        <attr name="friendDrankData"/>
+        <attr name="standarDayData"/>
+    </declare-styleable>
+
+</resources>
