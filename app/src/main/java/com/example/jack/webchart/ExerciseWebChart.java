@@ -36,7 +36,7 @@ public class ExerciseWebChart extends View {
     private Paint mLineCircle;
     //圆点
     private Paint mCircleHoldPaint;
-    //
+    //画字体
     private Paint mCenterCircle;
     //最外的圆的透明度
     private int mCircleAlpha1=0;
@@ -244,7 +244,7 @@ public class ExerciseWebChart extends View {
         centerCircleContent(canvas);
     }
 
-
+    //画解释的内容
     public void drawExpain(Canvas canvas){
         if(!expainWatchDag){
             return ;
